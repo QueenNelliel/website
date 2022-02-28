@@ -1,4 +1,13 @@
 Body{
-  background-color: purple;
-  font-family: 'Syne Mono', monospace;
+  background-color: pink;
+  font-family: 'League Gothic', sans-serif;
+}
+
+h1{
+  font-family: 'syne mono', monospace;
+  color: blue;
+}
+
+footer{
+  color:purple;
 }
