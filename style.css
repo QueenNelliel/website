@@ -1,18 +1,45 @@
-Body{
+/* Website styles */
+Body {
   background-color: pink;
   font-family: 'League Gothic', sans-serif;
 }
 
-h1{
+h1 {
   font-family: 'syne mono', monospace;
   color: blue;
 }
 
-footer{
+footer {
   color:purple;
 }
 
-h3{
+h3 {
   font-family: 'syne mono', monospace;
 
+}
+
+h1 {
+  font-size:36px;
+}
+
+h2 {
+  font-size:24px;
+}
+
+h3 {
+  font-size:18px;
+}
+
+h1, h2, h3 {
+  font-weight: 150;
+}
+p {
+  line-height:3;
+  color:black;
+  font-size:18px;
+  text-align:center;
+}
+
+h1 {
+  text-align:center;
 }
