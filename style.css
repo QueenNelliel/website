@@ -11,15 +11,14 @@ h1 {
 
 h3 {
   font-family: 'syne mono', monospace;
-
 }
 
 h1 {
-  font-size:36px;
+  font-size:48px;
 }
 
 h2 {
-  font-size:24px;
+  font-size:36px;
 }
 
 h3 {
@@ -27,12 +26,12 @@ h3 {
 }
 
 h1, h2, h3 {
-  font-weight: 150;
+  font-weight: 300;
 }
 p {
   line-height:3;
   color:black;
-  font-size:18px;
+  font-size:24px;
   text-align:center;
 }
 
@@ -43,10 +42,22 @@ h1 {
 footer p {
   font-family: 'syne mono', monospace;
   color:purple;
-  font-size:36px;
+  font-size:24px;
 }
 
 a {
   color: blue;
-  text-decloration: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  font-size:18px;
+}
+
+a:active {
+  color:green;
 }
