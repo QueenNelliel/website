@@ -45,3 +45,8 @@ footer p {
   color:purple;
   font-size:36px;
 }
+
+a {
+  color: blue;
+  text-decloration: none;
+}
