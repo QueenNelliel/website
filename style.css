@@ -7,30 +7,40 @@ Body {
 h1 {
   font-family: 'syne mono', monospace;
   color: blue;
-  font-size:48px;
+  font-size:56px;
   text-align:center;
 }
 
 h2 {
-  font-size:36px;
-}
-
-h3 {
-  font-size:22px;
+  font-size:24px;
   font-family: 'syne mono', monospace;
 }
 
+h3 {
+  font-size:24px;
+  text-align:center;
+}
+
+ul {
+  font-size:24
+}
+
+ul,ol {
+  font-size:18px;
+}
+
 p {
-  line-height:3;
+  line-height:4;
   color:black;
   font-size:24px;
   text-align:center;
 }
 
+
 footer p {
   font-family: 'syne mono', monospace;
   color:purple;
-  font-size:24px;
+  font-size:36px;
 }
 
 a {
@@ -40,10 +50,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-ul {
-  font-size:18px;
 }
 
 a:active {
