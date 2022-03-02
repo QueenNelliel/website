@@ -1,4 +1,8 @@
 /* Website styles */
+*{
+  fint-size: 100%;
+  /* border:1px solid white; */
+}
 Body {
   background-color: pink;
   font-family: 'League Gothic', sans-serif;
