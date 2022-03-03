@@ -98,6 +98,7 @@ a:active {
 }
 
 .title {
+  /* width: 100%; */
   font-size: 72px;
   text-decoration: underline purple;
   color: blue;
