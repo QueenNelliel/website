@@ -109,9 +109,23 @@ a:active {
 
 }
 
+.container h1 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.bottom {
+  text-align: right;
+}
+
+div {
+  margin: 0 auto;
+}
+
 img {
   width: 300px;
   height: 200px;
+  max-width: 250px
 }
 
 #top {
@@ -119,4 +133,11 @@ img {
   color: white;
   font-family: 'syne mono', monospace;
   text-decoration:none;
+}
+
+#bottom {
+  color: black;
+  font-family: 'syne mono', monospace;
+  text-decoration:none;
+  /* text-align: right; */
 }
