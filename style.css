@@ -8,14 +8,31 @@
 }
 
 header {
-  text-align: center;
-  /* border-top: 15px solid lightblue; */
-  /* margin: 30px; */
+  margin: 10px;
   /* padding: 15px; */
 }
 
+.banner1 {
+  height: 200px;
+  background-image: url(images/banner1.jpg);
+  background-size: cover;
+}
+
+.banner2 {
+  height: 200px;
+  background-image: url(images/banner2.jpg);
+  background-size: cover;
+}
+
+.banner3 {
+  height: 300px;
+  width: 800px;
+  background-image: url(images/banner3.png);
+  background-size: cover;
+}
+
 body {
-  /* background-color: hotpink; */
+  /* background-color:hotpink; */
   font-family: 'League Gothic', sans-serif;
   font-size: 22px;
   margin: 5%;
@@ -50,9 +67,9 @@ h1 {
   /* color: blue; */
   /* font-size: 64px; */
   text-align: center;
-  background-color: violet;
-  margin: 30px;
-  padding: 15px;
+  /* background-color: violet; */
+  margin: 25px;
+  padding: 70px;
 }
 
 h2 {
@@ -97,9 +114,12 @@ footer p {
   color: violet;
   font-size: 36px;
   font-weight: 600;
-  border-bottom: 15px solid violet;
+  margin: 5px;
   text-decoration: underline;
+}
 
+.home {
+  border-bottom: 5px solid lightblue;
 }
 
 a {
