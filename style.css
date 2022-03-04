@@ -51,7 +51,18 @@ body {
 
 .container1 {
   /* text-align: */
-  background-image: url(images/controller.webp)
+  background-image: url(images/battle.jpg);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 350px;
+}
+
+.container2 {
+  /* text-align: */
+  background-image: url(images/controller.webp);
+  background-repeat: no-repeat;
+  width: 750px;
+  height: 400px;
 }
 
 section {
@@ -137,12 +148,6 @@ a:active {
   font-size: 72px;
   text-decoration: underline lightpink;
   color: lightblue;
-}
-
-.container h1 {
-  max-width: 1000px;
-  margin: 0 auto;
-  /* background-image: url(file/images/moon.jpg); */
 }
 
 .top {
