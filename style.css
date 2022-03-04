@@ -94,8 +94,8 @@ body {
 
 section {
   margin: 15px 0;
-  border: 2px dashed black;
-  padding: 30px;
+  border: 5px dotted lightblue;
+  padding: 0 auto;
 }
 
 /* title */
