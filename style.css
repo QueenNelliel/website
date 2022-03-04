@@ -118,10 +118,6 @@ footer p {
   text-decoration: underline;
 }
 
-.home {
-  border-bottom: 5px solid lightblue;
-}
-
 a {
   color: blue;
   text-decoration: none;
@@ -150,8 +146,13 @@ a:active {
   /* background-image: url(file/images/moon.jpg); */
 }
 
+.top {
+  border-bottom: 5px solid lightblue;
+}
+
 .bottom {
   text-align: right;
+  border-bottom: 5px solid lightblue;
 }
 
 div {
