@@ -49,6 +49,10 @@ body {
   /* background-repeat: no-repeat; */
 }
 
+.biz {
+  background-image: url(images/artbg.png);
+}
+
 .container1 {
   /* text-align: */
   background-image: url(images/battle.jpg);
@@ -65,11 +69,17 @@ body {
   height: 400px;
 }
 
-.container3 {
-  background-image: url(images/que.jpg);
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .container4 {
