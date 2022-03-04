@@ -53,8 +53,8 @@ body {
   /* text-align: */
   background-image: url(images/battle.jpg);
   background-repeat: no-repeat;
-  width: 400px;
-  height: 350px;
+  width: 600px;
+  height: 400px;
 }
 
 .container2 {
@@ -64,6 +64,21 @@ body {
   width: 750px;
   height: 400px;
 }
+
+.container3 {
+  background-image: url(images/que.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.container4 {
+  background-image: url(images/zero.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
 
 section {
   margin: 15px 0;
