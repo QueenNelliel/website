@@ -62,6 +62,12 @@ body {
   /* border: 10px 20px solid purple; */
 }
 
+.title {
+  font-size: 56px;
+  text-decoration: underline lightpink;
+  color: lightblue;
+}
+
 .container1 {
   /* text-align: */
   background-image: url(images/battle.jpg);
@@ -85,6 +91,12 @@ body {
   padding: 5px;
 }
 
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -92,11 +104,26 @@ body {
   display: table;
 }
 
-.container4 {
-  background-image: url(images/zero.jpg);
+.container3 {
+  background-image: url(images/sketch.jpg);
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
+}
+
+.container4 {
+  background-image: url(images/sweeny.jpg);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 500px;
+}
+
+.top1 {
+  border-top: 5px dotted lightblue;
+}
+
+.bot1 {
+  /* text-align: center; */
 }
 
 .s1 {
@@ -123,9 +150,10 @@ h3 {
     font-family: 'syne mono', monospace;
 }
 
-/* h4 {
+h4 {
   text-height: 3;
-} */
+  text-align: center;
+}
 
 h2, h3 {
   font-weight: 900;
@@ -195,12 +223,6 @@ a:active {
   /* height: 2%; */
 }
 
-.title {
-  font-size: 56px;
-  text-decoration: underline lightpink;
-  color: lightblue;
-}
-
 div {
   margin: 0 auto;
 }
@@ -213,7 +235,7 @@ img {
 }
 
 .top {
-  border-bottom: 5px dotted lightblue;
+  /* border-bottom: 5px dotted lightblue; */
   font-family: 'syne mono', monospace;
 }
 
@@ -225,7 +247,7 @@ img {
 .bottom {
   text-align: right;
   font-family: 'syne mono', monospace;
-  border-top: 5px dotted lightblue;
+  /* border-top: 5px dotted lightblue; */
   margin: 5px;
 }
 
